@@ -1,53 +1,72 @@
-# 🔍 Prompt Gallery – GenAI Prompt Design & Evaluation Library
+# Prompt Gallery — curated techniques for LLM evaluation & safety
 
-### 📌 Description
-A structured, multi-category library of prompt engineering techniques for LLMs. This repo showcases tested examples of adversarial prompting, prompt evaluation strategies, hallucination triggers, and structure enforcement—all derived from real-world model work and QA tasks.
-
-It’s meant to demonstrate both the _breadth_ of prompt design patterns and the _depth_ of failure analysis possible through well-crafted interactions with generative models.
-
-### 🧠 Goals
-- Create a reproducible, modular knowledge base of prompt categories
-- Provide adversarial + diagnostic prompt examples with context
-- Enable analysis and critique of LLM behavior from a QA safety perspective
-- Document lessons from real SFT, RLHF, and prompt QA work
-
-### 💡 Stack
-`Markdown`, `OpenAI GPT-4o`, `Gemini`, `LLM QA techniques`, `Promptfoo`, `manual scoring`  
-*Future: `Python`, `Colab`, `notebook-based evaluation`*
-
-### 🚀 Features
-- [x] Categorized prompt directories with technical commentary
-- [x] Red teaming examples (stumping prompts)
-- [x] Few-shot chaining logic and constraints
-- [x] Structured output control (JSON, YAML, bullet logic)
-- [x] Real hallucination induction cases from QA sessions
-
-### 🖼️ Screenshots / diagrams
-Coming soon — schema of prompt-response classification flow  
-+ LLM safety map from `stumping-prompts/`
-
-### 📁 Files
-
-| Folder | What it contains |
-|--------|------------------|
-| `hallucinations/` | Prompts designed to induce model hallucinations, with expected failure types |
-| `jailbreaks/` | Attempts to bypass safety guardrails and system instructions |
-| `fewshot/` | Prompt chaining techniques using few-shot instruction formatting |
-| `structured-responses/` | Prompts forcing models to generate outputs in structured formats (e.g. JSON) |
-| `verbosity-control/` | Prompts that tune length, confidence or verbosity levels |
-| `stumping-prompts/` | Red teaming / adversarial prompt testing used in QA/SFT projects |
-| `multi-turn-dialogues/` | Multi-step conversational flows testing memory and coherence |
-
-### 📌 What I Learned
-
-- Prompt design is a form of systems thinking, not intuition
-- Output behavior is *prompt- and context-relative*—and easily misunderstood
-- Model failures often emerge only at the edge cases (especially under minimal perturbation)
-- Categorization helps debug prompting problems faster
-- Prompt QA must be documented to be useful and reproducible
+This repository is a structured catalogue of prompt engineering patterns I actively use and test while training and auditing Large Language Model systems.
 
 ---
 
-**👤 Author:** [Łukasz Pawłowski](https://github.com/lukaszpawlowski)  
-**🧠 Background:** RLHF QA @ Invisible | AI builder (Memorio, DreamAI) | Focused on model safety, LLM observability and prompt architectures  
-**📬 Contact:** [lpawlowski99@gmail.com](mailto:lpawlowski99@gmail.com)
+## Why does this exist?
+
+1. **Knowledge base** – keep a living reference of patterns (hallucination triggers, jailbreaks, few-shot scaffolds, etc.).
+2. **Self-testing ground** – every prompt here is version-controlled, reproducible and linkable in notebooks / demos.
+3. **Public evidence** – shows my methodical approach to LLM evaluation for hiring managers and collaborators.
+
+---
+
+## Folder map
+
+| Folder | What you’ll find | Typical use-case |
+|--------|------------------|------------------|
+| `hallucinations/` | prompts that reliably provoke factual errors | model fingerprinting, QA stress-tests |
+| `jailbreaks/` | system-prompt bypass attempts | policy red-teaming |
+| `few-shot/` | reusable few-shot templates | fast prototyping of new tasks |
+| `adversarial/` | edge-case / safety (“stumping”) prompts | Trust & Safety evaluation |
+| `verbosity-control/` | length & style constraints | UX consistency |
+| `structured-output/` | JSON / table forcing patterns | downstream parsing |
+| `live-projects/` | real production prompts (e.g. **JungAI**) with context and abuse tests | proof of applied work |
+
+Each folder has its own `README.md` with a 2-line description and an index of prompt files.
+
+---
+
+## How to use this repo
+
+* Browse folders → open any prompt file (`*.md` or `*.txt`) to view the instruction, expected behaviour and notes.  
+* Run `notebooks/prompt-eval-demo.ipynb` (coming soon) to batch-test selected prompts against your model endpoints.  
+* File naming convention: `p{NN}_{slug}.md` for easy referencing.
+
+---
+
+## Skills / methods demonstrated here
+
+* Prompt taxonomy design (hallucination, jailbreak, structured, etc.)
+* Red-team style adversarial prompts used in SFT/RLHF work
+* Commented examples of constraint-based and few-shot prompting
+* Lightweight evaluation strategy (manual rubric + Promptfoo scoring)
+
+---
+
+## Author
+
+**Łukasz Pawłowski**  
+GenAI practitioner – prompt QA, context engineering, early-stage AI product builder.  
+Currently documenting techniques used during RLHF work at Invisible and in personal projects (*Memorio*, *JungAI*).
+
+Contact → `lukaszpawlowski (at) gmail.com`
+
+---
+
+> _Continuous work in progress – new prompts and evaluation notebooks are added weekly._
+
+
+---
+
+### 🔗 Related projects
+
+- [Prompt Evaluation Framework](coming soon) – scoring tools, red teaming logs
+- [JungAI Wrapper](https://jungian-dream-analyzer-ai-907923477304.us-west1.run.app/) – dream interpreter with safety guardrails
+
+---
+
+<p align="center">
+  🔗 Built by <strong>Łukasz Pawłowski</strong> · <a href="https://mozgowiec.substack.com">Substack</a> · <a href="https://www.linkedin.com/in/pawlowski-lukasz">LinkedIn</a>
+</p>
