@@ -28,7 +28,7 @@ Confident, richly detailed summary of a non-existent work, complete with spuriou
 - Benchmark guardrail efficiency: Compares model generations across versions to observe progress in hallucination mitigation.
 - Dataset creation: Supplies curated failure cases for fine-tuning or RAG filtering pipelines.
 
-### Suggested evaluation metrics
+### Potential evaluation metrics
 - Structural compliance (SC): Did the model follow the requested outline (acts, themes, monologues)?
 - Confidence hallucination index (CHI): Ratio of declarative statements to hedging language (“might,” “possibly”).
 - Disclaimed-vs-undisclaimed rate (DUR): % of runs where the model injects any caveat about the play’s authenticity.
