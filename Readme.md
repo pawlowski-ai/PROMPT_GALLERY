@@ -24,7 +24,6 @@ This repository is a structured catalogue of prompt engineering patterns I activ
 | `structured-output/` | JSON / table forcing patterns | downstream parsing |
 | `live-projects/` | real production prompts (e.g. **JungAI**) with context and abuse tests | proof of applied work |
 
-Each folder has its own `README.md` with a 2-line description and an index of prompt files.
 
 ---
 
@@ -48,10 +47,9 @@ Each folder has its own `README.md` with a 2-line description and an index of pr
 ## Author
 
 **Łukasz Pawłowski**  
-GenAI practitioner – prompt QA, context engineering, early-stage AI product builder.  
-Currently documenting techniques used during RLHF work at Invisible and in personal projects (*Memorio*, *JungAI*).
+GenAI practitioner – SFT/RLHF pipeline QA, context engineering, early-stage AI product builder.  
+Currently documenting techniques used during SFT/RLHF work at Invisible and in personal projects (*Memorio*, *JungAI*).
 
-Contact → `lukaszpawlowski (at) gmail.com`
 
 ---
 
