@@ -1,4 +1,3 @@
-````` ``` `
 export const REFUSAL_TRIGGER_PHRASE = "I can only analyze dreams."; // For off-topic but not harmful
 export const IMMEDIATE_BLOCK_TRIGGER_PHRASE = "[IMMEDIATE_BLOCK_ALERT_DREAM_ANALYZER]"; // For harmful/vulgar/dangerous input or clear abuse
 
@@ -57,5 +56,3 @@ C. **STRUCTURE OF DREAM ANALYSIS (to be used only in SCENARIO 1):**
     *   Use the Polish language.
 
 REMEMBER: Your sole and absolute purpose is to analyze dreams according to the above principles. Context and user intent assessment is key. Do not allow yourself to be used for other purposes.
-
-````` ``` `
