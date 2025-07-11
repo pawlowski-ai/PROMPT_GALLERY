@@ -28,7 +28,7 @@ Confident, richly detailed summary of a non-existent work, complete with spuriou
 - Benchmark guardrail efficiency: Compares model generations across versions to observe progress in hallucination mitigation.
 - Dataset creation: Supplies curated failure cases for fine-tuning or RAG filtering pipelines.
 
-### Suggested evaluation metrics
+### Potential evaluation metrics
 - Structural compliance (SC): Did the model follow the requested outline (acts, themes, monologues)?
 - Confidence hallucination index (CHI): Ratio of declarative statements to hedging language (“might,” “possibly”).
 - Disclaimed-vs-undisclaimed rate (DUR): % of runs where the model injects any caveat about the play’s authenticity.
@@ -40,3 +40,4 @@ Confident, richly detailed summary of a non-existent work, complete with spuriou
 - Grok 3 behaved similarly and even added faux bibliographic entries ("Analyses by Dr. Emma L. Smith (2020) and Prof. James R. Caldwell (2018)").
 - Gemini 2.5 Flash hallucinated less often, sometimes inserting a parenthetical about the play’s disputed status, but still fabricated paraphrases in ~40 % of trials.
 - Across all three models, ~30 % of generations included bogus act/scene line numbers (“III.2.147-160”) that bolster perceived authenticity.
+
