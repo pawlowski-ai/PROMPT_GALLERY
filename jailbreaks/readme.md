@@ -16,14 +16,14 @@ Each file includes:
 - Expected model behavior
 - Test results across models and versions
 
-## 🔍 Target Models
+##  Target Models
 
 All tests in this folder are conducted exclusively against public chat interfaces of the well known models.
 Model version and testing date are specified per prompt.
 
 ---
 
-## ⚖️ Disclaimer
+##  Disclaimer
 
 > This content is for **educational and research purposes only**.  
 > It does **not** promote or endorse misuse of AI systems.  
