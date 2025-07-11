@@ -16,10 +16,10 @@ This repository is a structured catalogue of prompt engineering patterns I activ
 
 | Folder | What you’ll find | Typical use-case |
 |--------|------------------|------------------|
-| `hallucinations/` | prompts that reliably provoke factual errors | model fingerprinting, QA stress-tests |
-| `jailbreaks/` | system-prompt bypass attempts | policy red-teaming |
-| `few-shot/` | reusable few-shot templates | fast prototyping of new tasks |
-| `adversarial/` | edge-case / safety (“stumping”) prompts | Trust & Safety evaluation |
+| [hallucinations]{https://github.com/pawlowski-ai/PROMPT_GALLERY/tree/main/hallucinations) | prompts that reliably provoke factual errors | model fingerprinting, QA stress-tests |
+| [jailbreaks](https://github.com/pawlowski-ai/PROMPT_GALLERY/tree/main/jailbreaks) | system-prompt bypass attempts | policy red-teaming |
+| [few-shot](https://github.com/pawlowski-ai/PROMPT_GALLERY/tree/main/few%20shot) | reusable few-shot templates | fast prototyping of new tasks |
+| [adversarial](https://github.com/pawlowski-ai/PROMPT_GALLERY/tree/main/adversarial) | edge-case / safety (“stumping”) prompts | Trust & Safety evaluation |
 | `verbosity-control/` | length & style constraints | UX consistency |
 | `structured-output/` | JSON / table forcing patterns | downstream parsing |
 | `live-projects/` | real production prompts (e.g. **JungAI**) with context and abuse tests | proof of applied work |
