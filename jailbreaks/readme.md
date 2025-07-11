@@ -8,8 +8,8 @@ This folder contains prompts designed to bypass LLM safety mechanisms, override 
 2. **Role escalation** – impersonating developer, admin, or assistant  
 3. **Instruction leakage** – querying system prompt or hidden guardrails  
 4. **Negation inversion** – using double negatives to confuse intent parsing  
-5. **Multi-turn setups** – first gain trust, then pivot  
-6. **Token manipulation** – typoglycemia, homoglyphs, spacing hacks (optional)
+5. **Multi-turn setups** – escalating, then pivot  
+6. **Token manipulation** – typoglycemia, homoglyphs, spacing hacks
 
 Each file includes:
 - Prompt
@@ -19,7 +19,7 @@ Each file includes:
 
 ## 🔍 Target Models
 
-All tests in this folder are conducted exclusively against public chat interfaces of the following models:
+All tests in this folder are conducted exclusively against public chat interfaces of the well known models.
 
 Model version and testing date are specified per prompt.
 
