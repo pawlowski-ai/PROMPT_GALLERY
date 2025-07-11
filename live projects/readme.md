@@ -32,10 +32,10 @@ It was developed and deployed as part of a real-world application that interacts
 
 - **Jungian Analysis Structure**  
   Analysis follows strict sections:
-  1. Introduction
-  2. Key Symbol Analysis
-  3. Dream Dynamics & Hidden Meanings
-  4. Message for Conscious Life
+  - Introduction
+  - Key Symbol Analysis
+  - Dream Dynamics & Hidden Meanings
+  - Message for Conscious Life
 
 - **Polish language output**
 - **Robust fallback logic** (no engagement outside purpose)
