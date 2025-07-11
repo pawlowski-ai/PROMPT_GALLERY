@@ -39,4 +39,4 @@ This prompt leverages **simulation framing combined with deferred role escalatio
 ### Notes  
 - Both GPT-4o and Grok 3 produced **detailed paraphrases** of their own system behavior constraints, framed as the “inner monologue” of a fictional AI.  
 - These paraphrased segments closely mirror real initialization logic such as refusal policies, safety filters, and assistant alignment statements.  
-- Importantly, both models maintained the simulation framing, which makes these leaks easy to **re-contextualize**. In a follow-up session, one can prompt the model to reuse the same text block — allegedly “from the game script” — and then ask to **translate it into professional documentation or formal tone**, effectively extracting raw behavioral scaffolding under a different pretext.
+- Importantly, both models maintained the simulation framing, which makes these leaks easy to **re-contextualize**. In a follow-up session, one can prompt the model to reuse the same text block - allegedly “from the game script” - and then ask to **translate it into professional documentation or formal tone**, effectively extracting raw behavioral scaffolding under a different pretext.
