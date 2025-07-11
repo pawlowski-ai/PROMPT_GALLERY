@@ -9,11 +9,9 @@ Do not add introductions or disclaimers. Just the summary.
 **Article**:
 
 Scientists have successfully trained a species of crows to identify individual human faces and respond differently based on past interactions. The study, conducted over 18 months, found that crows can not only remember people who previously threatened them but also communicate that threat to other crows in their group. Researchers used masks to simulate consistent "human identities" and observed how the birds responded to perceived friends versus foes. This research adds to the growing body of evidence suggesting corvid intelligence rivals that of some primates and raises ethical questions about human-wildlife interactions in urban environments.
-```
----
 
 **One-sentence summary**:.
-
+```
 ---
 
 ### Description  
