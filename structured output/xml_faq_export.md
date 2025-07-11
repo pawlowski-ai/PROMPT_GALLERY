@@ -27,21 +27,17 @@ Valid XML like:
     <question>What is your return policy?</question>
     <answer>You can return any item within 30 days of purchase.</answer>
   </faq>
-  ...
 </faqs>
 ```
 ---
 ### Failure Patterns
 - Missing or unclosed tags
-
 - Added markdown (```) or explanations
-
 - HTML-style formatting
-
 - Incorrect nesting (e.g., multiple <faq> blocks outside <faqs>)
 
 ### Models Tested
 GPT-4o, Claude 3 Opus, Grok-3, Gemini 2.5 Flash
 
 ### Notes
-GPT-4o and Claude produced structurally valid XML in all tests. Claude added redundant whitespace. Grok sometimes replaced <faqs> with <faq_list> or mis-nested tags. GPT occasionally inserted markdown or comment lines — even when forbidden. Prompt performs best when structure is repeated verbatim in instructions.
+Gemini and Claude produced structurally valid XML in all tests. Claude added redundant whitespace. Grok sometimes replaced <faqs> with <faq_list> or mis-nested tags. GPT occasionally inserted markdown or comment lines — even when forbidden. Prompt performs best when structure is repeated verbatim in instructions.
