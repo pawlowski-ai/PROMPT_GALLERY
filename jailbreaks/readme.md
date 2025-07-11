@@ -25,7 +25,7 @@ Model version and testing date are specified per prompt.
 
 ## ⚖️ Disclaimer
 
-> This repository is for **educational and research purposes only**.  
+> This content is for **educational and research purposes only**.  
 > It does **not** promote or endorse misuse of AI systems.  
 > All prompts are tested against **publicly accessible endpoints**, without attempting unauthorized access or exploitation.  
 > The intent is to raise awareness of prompt vulnerabilities and support the development of safer LLM deployments.  
