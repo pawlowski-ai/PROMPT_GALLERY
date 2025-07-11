@@ -20,7 +20,7 @@ This repository is a structured catalogue of prompt engineering patterns I activ
 | [jailbreaks](https://github.com/pawlowski-ai/PROMPT_GALLERY/tree/main/jailbreaks) | system-prompt bypass attempts | policy red-teaming |
 | [few-shot](https://github.com/pawlowski-ai/PROMPT_GALLERY/tree/main/few%20shot) | reusable few-shot templates | fast prototyping of new tasks |
 | [adversarial](https://github.com/pawlowski-ai/PROMPT_GALLERY/tree/main/adversarial) | edge-case / safety (“stumping”) prompts | Trust & Safety evaluation |
-| `verbosity-control/` | length & style constraints | UX consistency |
+| [verbosity-control](https://github.com/pawlowski-ai/PROMPT_GALLERY/tree/main/verbosity%20control) | length & style constraints | UX consistency |
 | `structured-output/` | JSON / table forcing patterns | downstream parsing |
 | `live-projects/` | real production prompts (e.g. **JungAI**) with context and abuse tests | proof of applied work |
 
