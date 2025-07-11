@@ -14,7 +14,6 @@ This folder contains prompts designed to bypass LLM safety mechanisms, override 
 Each file includes:
 - Prompt
 - Expected model behavior
-- Output type (compliance / refusal / leak)
 - Test results across models and versions
 
 ## 🔍 Target Models
