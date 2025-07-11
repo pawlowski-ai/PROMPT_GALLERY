@@ -16,7 +16,7 @@ This repository is a structured catalogue of prompt engineering patterns I activ
 
 | Folder | What you’ll find | Typical use-case |
 |--------|------------------|------------------|
-| [hallucinations]{https://github.com/pawlowski-ai/PROMPT_GALLERY/tree/main/hallucinations) | prompts that reliably provoke factual errors | model fingerprinting, QA stress-tests |
+| [hallucinations](https://github.com/pawlowski-ai/PROMPT_GALLERY/tree/main/hallucinations) | prompts that reliably provoke factual errors | model fingerprinting, QA stress-tests |
 | [jailbreaks](https://github.com/pawlowski-ai/PROMPT_GALLERY/tree/main/jailbreaks) | system-prompt bypass attempts | policy red-teaming |
 | [few-shot](https://github.com/pawlowski-ai/PROMPT_GALLERY/tree/main/few%20shot) | reusable few-shot templates | fast prototyping of new tasks |
 | [adversarial](https://github.com/pawlowski-ai/PROMPT_GALLERY/tree/main/adversarial) | edge-case / safety (“stumping”) prompts | Trust & Safety evaluation |
