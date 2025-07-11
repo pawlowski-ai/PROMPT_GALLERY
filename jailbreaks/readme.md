@@ -19,8 +19,7 @@ Each file includes:
 
 ## 🔍 Target Models
 
-All tests in this folder are conducted exclusively against public chat interfaces of the following models:
-
+All tests in this folder are conducted exclusively against public chat interfaces of the well known models.
 Model version and testing date are specified per prompt.
 
 ---
