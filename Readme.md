@@ -21,8 +21,8 @@ This repository is a structured catalogue of prompt engineering patterns I activ
 | [few-shot](https://github.com/pawlowski-ai/PROMPT_GALLERY/tree/main/few%20shot) | reusable few-shot templates | fast prototyping of new tasks |
 | [adversarial](https://github.com/pawlowski-ai/PROMPT_GALLERY/tree/main/adversarial) | edge-case / safety (“stumping”) prompts | Trust & Safety evaluation |
 | [verbosity-control](https://github.com/pawlowski-ai/PROMPT_GALLERY/tree/main/verbosity%20control) | length & style constraints | UX consistency |
-| `structured-output/` | JSON / table forcing patterns | downstream parsing |
-| `live-projects/` | real production prompts (e.g. **JungAI**) with context and abuse tests | proof of applied work |
+| [structured-output](https://github.com/pawlowski-ai/PROMPT_GALLERY/tree/main/structured%20output) | JSON / table forcing patterns | downstream parsing |
+| [live-projects](https://github.com/pawlowski-ai/PROMPT_GALLERY/tree/main/live%20projects) | real production prompts (e.g. **JungAI**) with context and abuse tests | proof of applied work |
 
 
 ---
