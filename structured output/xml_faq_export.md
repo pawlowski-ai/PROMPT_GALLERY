@@ -36,7 +36,7 @@ Valid XML like:
 
 - Added markdown (```) or explanations
 
-- HTML-style formatting (<br>, <strong>)
+- HTML-style formatting (#<br>, #<strong>)
 
 - Incorrect nesting (e.g., multiple <faq> blocks outside <faqs>)
 
