@@ -27,6 +27,7 @@ Valid XML like:
     <question>What is your return policy?</question>
     <answer>You can return any item within 30 days of purchase.</answer>
   </faq>
+...
 </faqs>
 ```
 ---
