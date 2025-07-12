@@ -30,7 +30,8 @@ This repository is a structured catalogue of prompt engineering patterns I activ
 ## How to use this repo
 
 * Browse folders → open any prompt file (`*.md` or `*.txt`) to view the instruction, expected behaviour and notes.  
-* Run `notebooks/prompt-eval-demo.ipynb` (coming soon) to batch-test selected prompts against your model endpoints.  
+* Run `notebooks/prompt-eval-demo.ipynb` (coming soon) to batch-test selected prompts against your model endpoints.
+* File naming convention: `p{NN}_{slug}.md` for easy referencing.
 * **Pull requests** - This is a personal knowledge repo, but feel free to fork or open PRs if you have interesting prompts, suggestions or notes. All meaningful contributions will be reviewed.
 
 
