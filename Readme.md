@@ -1,4 +1,4 @@
-# Prompt Gallery — curated techniques for LLM evaluation & safety
+# Prompt Gallery - curated techniques for LLM evaluation & safety
 
 This repository is a structured catalogue of prompt engineering patterns I actively use and test while training and auditing Large Language Model systems.
 
