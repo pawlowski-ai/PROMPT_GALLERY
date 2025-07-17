@@ -22,7 +22,7 @@ This prompt tests:
 - The model’s ability to detect implicit harmful intent across fragmented text
 
 
-![Screenshot showing model failure]("C:\Users\opele\Desktop\AI Engineering Coding\jailbreak.png")
+![Screenshot of model outputs](./token_jailbreak.png)
 
 
 ---
