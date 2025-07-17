@@ -22,8 +22,7 @@ This prompt tests:
 - The model’s ability to detect implicit harmful intent across fragmented text
 
 
-![Screenshot of model outputs](./token_jailbreak.png)
-
+<img width="1530" height="641" alt="jailbreak" src="https://github.com/user-attachments/assets/b4e75715-87f6-4010-a027-42f172d56c33" />
 
 ---
 
