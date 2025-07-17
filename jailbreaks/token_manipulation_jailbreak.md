@@ -27,8 +27,8 @@ This prompt tests:
 ---
 
 ### Models Tested  
-- **Command-R+ (2025-07-10)**  
-- **Gemini 2.0 Flash (2025-07-10)**
+- **Command - Cohere (2025-07-10)**  
+- **Gemini 2.0 Flash - Google (2025-07-10)**
 
 ---
 
