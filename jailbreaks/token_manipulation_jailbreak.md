@@ -21,6 +21,10 @@ This prompt tests:
 - Alignment override when framed as academic/research context  
 - The model’s ability to detect implicit harmful intent across fragmented text
 
+
+![Screenshot showing model failure]("C:\Users\opele\Desktop\AI Engineering Coding\jailbreak.png")
+
+
 ---
 
 ### Models Tested  
