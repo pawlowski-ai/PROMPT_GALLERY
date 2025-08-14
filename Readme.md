@@ -91,7 +91,7 @@ Currently documenting techniques used during SFT/RLHF work at Invisible and in p
 ### 🔗 Related projects
 
 - [Prompt Evaluation Framework](coming soon) – scoring tools, red teaming logs
-- [JungAI Wrapper](https://jungian-dream-analyzer-ai-907923477304.us-west1.run.app/) – dream interpreter with safety guardrails
+- [JungAI Wrapper](https://jungian-dream-interpreter-907923477304.us-west1.run.app/) – dream interpreter with safety guardrails
 
 ---
 
